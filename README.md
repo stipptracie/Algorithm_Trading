@@ -3,8 +3,8 @@
 
 # Data
 
-![svm_report](Images/svm_report.PNG)
-![svm_graph](Images/svm_graph.PNG)
+![svm_report]("../Images/svm_report.PNG")
+![svm_graph]("../Images/svm_graph.PNG)
 
 Training data offset changed to 9 months.
 ```
