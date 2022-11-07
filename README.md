@@ -3,16 +3,16 @@
 
 # Data
 
-![svm_report]("https://github.com/stipptracie/Algorithm_Trading/blob/main/Images/svm_report.png?raw=true")
-![svm_graph]("https://github.com/stipptracie/Algorithm_Trading/blob/main/Images/svm_graph.png?raw=true")
+![svm_report](Images/svm_report.png)
+![svm_graph](Images/svm_graph.png)
 
 Training data offset changed to 9 months.
 ```
 # Select the ending period for the training data with an offset of 9 months
 training_end = X.index.min() + DateOffset(months=9)
 ```
-![training_report](Images/training_report.PNG)
-![training_graph](Images/training_graph.PNG)
+![training_report](Images/training_report.png)
+![training_graph](Images/training_graph.png)
 
 SMA adjusted to be much longer than the original.
 ``` 
@@ -20,8 +20,8 @@ SMA adjusted to be much longer than the original.
 short_window = 50
 long_window = 200
 ```
-![sma_report](Images/sma_report.PNG)
-![sma_graph](Images/sma_graph.PNG)
+![sma_report](Images/sma_report.png)
+![sma_graph](Images/sma_graph.png)
 
 Using Logistic Regression as our new classifier.
 ```
@@ -31,5 +31,5 @@ from sklearn.linear_model import LogisticRegression
 # Initiate the model instance
 lr_model = LogisticRegression()
 ```
-![lr_report](Images/lr_report.PNG)
-![lr_graph](Images/lr_graph.PNG)
+![lr_report](Images/lr_report.png)
+![lr_graph](Images/lr_graph.png)
