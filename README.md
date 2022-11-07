@@ -3,8 +3,8 @@
 
 # Data
 
-![svm_report]("../Images/svm_report.PNG")
-![svm_graph]("../Images/svm_graph.PNG)
+![svm_report]("https://github.com/stipptracie/Algorithm_Trading/blob/main/Images/svm_report.png?raw=true")
+![svm_graph]("https://github.com/stipptracie/Algorithm_Trading/blob/main/Images/svm_graph.png?raw=true")
 
 Training data offset changed to 9 months.
 ```
